@@ -4,7 +4,7 @@ dist
 .vercel
 .env
 .yarn/
-.yarnrc
+.yarnrc*
 .yarn-integrity
 .pnp.*
 .pnp.js
