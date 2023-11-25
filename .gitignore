@@ -5,3 +5,6 @@ dist
 .env
 .yarn/
 .yarnrc
+.yarn-integrity
+.pnp.*
+.pnp.js
