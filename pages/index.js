@@ -94,40 +94,41 @@ const Home = () => (
           </Button>
         </Box>
       </Section>
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Work
+        </Heading>
+        <BioSection>
+          <BioYear>2023 to present</BioYear>
+          Working as a full stack developer at Triagons.
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2020</BioYear>
+          Worked as a call center representative at Teleperformance.
+        </BioSection>
+        <BioSection>
+          <BioYear>2017</BioYear>
+          Worked as a systems assistant at Supermetales.
+        </BioSection>
+      </Section>
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Education
         </Heading>
         <BioSection>
-          <BioYear>2015</BioYear>
-          Started Systems Engineering at University of Cartagena.
+          <BioYear>2023</BioYear>
+          Started Software Analysis and Development at SENA.
         </BioSection>
+
         <BioSection>
           <BioYear>2019</BioYear>
           Started Foreign Languages at University of Cartagena.
         </BioSection>
         <BioSection>
-          <BioYear>2023</BioYear>
-          Started Software Analysis and Development at Sena.
-        </BioSection>
-      </Section>
-
-      <Section delay={0.2}>
-        <Heading as="h3" variant="section-title">
-          Work
-        </Heading>
-        <BioSection>
-          <BioYear>2017</BioYear>
-          Worked as a systems assistant at Supermetales.
-        </BioSection>
-        <BioSection>
-          <BioYear>2020</BioYear>
-          Worked as a call center representative at Teleperformance.
-        </BioSection>
-        <BioSection>
-          <BioYear>2023 to present</BioYear>
-          Working as a full stack developer at Triagons.
+          <BioYear>2015</BioYear>
+          Started Systems Engineering at University of Cartagena.
         </BioSection>
       </Section>
 
