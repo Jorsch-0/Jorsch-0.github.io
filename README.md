@@ -1,6 +1,6 @@
-# JorCodeCraft's Homepage
+# JorTech's Homepage
 
-[https://jorcodecraft.com/](https://jorcodecraft.com/)
+[https://jortech.cc/](https://jortech.cc/)
 
 ## Stack
 

@@ -1,7 +1,7 @@
 {
-  "name": "jorcodecraft-homepage",
+  "name": "jortech-homepage",
   "version": "1.0.0",
-  "description": "JorCodeCraft's website",
+  "description": "JorTech's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
