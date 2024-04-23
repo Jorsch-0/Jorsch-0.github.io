@@ -10,15 +10,15 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="JorCodeCraft's homepage" />
+        <meta name="description" content="JorTech's homepage" />
         <meta name="author" content="Jorge Leon" />
         <meta name="author" content="Jorsch" />
         <link rel="apple-touch-icon" href="/icon.svg" />
         <link rel="shortcut icon" href="/icon.svg" type="image/x-icon" />
-        <meta property="og:site_name" content="JorCodeCraft" />
-        <meta name="og:title" content="JorCodeCraft" />
+        <meta property="og:site_name" content="JorTech" />
+        <meta name="og:title" content="JorTech" />
         <meta property="og:type" content="website" />
-        <title>JorCodeCraft - Homepage</title>
+        <title>JorTech - Homepage</title>
       </Head>
 
       <NavBar path={router.asPath} />
