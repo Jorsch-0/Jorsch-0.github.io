@@ -21,7 +21,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://familyguy-nextjs.vercel.app/">
+          <Link href="https://familyguy-nextjs.vercel.app/" target="_blank">
             https://familyguy-nextjs.vercel.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -32,6 +32,16 @@ const Work = () => (
         <ListItem>
           <Meta>Stack</Meta>
           <span>React, Next.js, Tailwind</span>
+        </ListItem>
+        <ListItem>
+          <Meta>Source</Meta>
+          <Link
+            href="https://github.com/Jorsch-0/familyguy-nextjs"
+            target="_blank"
+          >
+            https://github.com/Jorsch-0/familyguy-nextjs
+            <ExternalLinkIcon mx="2px" />
+          </Link>
         </ListItem>
       </List>
 

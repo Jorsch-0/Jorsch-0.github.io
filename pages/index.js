@@ -72,15 +72,13 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Me
+          About
         </Heading>
         <Paragraph>
-          Jorge is a{' '}
-          <text style={{ color: '#ff63c3' }}>Full Stack Developer</text> who
-          specializes in JavaScript Technologies (React.js, Node.js, Express).
-          Building complete web applications with backend API Systems. Full of
-          passion for tech and the web, ready for the challenges of the
-          industry.
+          I am a <text style={{ color: '#ff63c3' }}>Software Developer</text>{' '}
+          who specializes in JavaScript Technologies. Building complete web
+          applications with backend API Systems. Full of passion for tech and
+          the web, ready for the challenges of the industry.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -100,16 +98,20 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2023 to present</BioYear>
-          Working as a full stack developer at Triagons.
+          Working as a Software Developer at Triagons.
         </BioSection>
 
         <BioSection>
           <BioYear>2020</BioYear>
-          Worked as a call center representative at Teleperformance.
+          Call Center Representative at Teleperformance.
+        </BioSection>
+        <BioSection>
+          <BioYear>2018</BioYear>
+          Software Developer at Supermetales.
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
-          Worked as a systems assistant at Supermetales.
+          Technical Support Specialist at Supermetales.
         </BioSection>
       </Section>
 
@@ -118,17 +120,20 @@ const Home = () => (
           Education
         </Heading>
         <BioSection>
-          <BioYear>2023</BioYear>
-          Started Software Analysis and Development at SENA.
+          <BioYear>2024</BioYear>
+          IBM Back-end JavaScript Developer.
         </BioSection>
-
+        <BioSection>
+          <BioYear>2023</BioYear>
+          Software Analysis and Development at SENA.
+        </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Started Foreign Languages at University of Cartagena.
+          Foreign Languages at University of Cartagena.
         </BioSection>
         <BioSection>
           <BioYear>2015</BioYear>
-          Started Systems Engineering at University of Cartagena.
+          Systems Engineering at University of Cartagena.
         </BioSection>
       </Section>
 
@@ -138,8 +143,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Coding, <text style={{ color: '#ff63c3' }}>Food</text>, Art, Music,
-          Playing Guitar, <text style={{ color: '#ff63c3' }}>Gaming</text>,
-          Machine Learning
+          Playing Guitar, <text style={{ color: '#ff63c3' }}>Gaming</text>
         </Paragraph>
       </Section>
 
@@ -175,7 +179,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="/Jorge-CV.pdf"
+            href="/Jorge%20Leon%20-%20CV.pdf"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
