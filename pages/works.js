@@ -11,6 +11,8 @@ import thumbSlateboarding from '../public/images/works/slateboarding_eyecatch.pn
 import thumbBlueDot from '../public/images/works/bluedot_eyecatch.png'
 import thumbSymphony from '../public/images/works/symphony_eyecatch.png'
 import thumbXmasChat from '../public/images/works/xmas-chat_eyecatch.png'
+import thumbDiscord from '../public/images/works/discord.png'
+import thumbLeetcode from '../public/images/works/leetcode.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -78,6 +80,20 @@ const Works = () => (
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="leetcode"
+            title="Leetcode"
+            thumbnail={thumbLeetcode}
+          >
+            Fullstack Leetcode Clone.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="discord" title="Discord" thumbnail={thumbDiscord}>
+            Fullstack Discord Clone.
+          </WorkGridItem>
+        </Section>
         <Section delay={0.3}>
           <WorkGridItem
             id="xmaschat"
